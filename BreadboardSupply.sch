@@ -1,0 +1,423 @@
+EESchema Schematic File Version 2  date Fre 09 Mär 2012 10:33:36 CET
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Power-in
+LIBS:mini_usb_b
+LIBS:fv_kicad_lib
+LIBS:BreadboardSupply-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title "BreadboardSupply"
+Date "9 mar 2012"
+Rev "1"
+Comp "Felix Morgner"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 3950 4350
+Wire Wire Line
+	4450 4350 3950 4350
+Wire Wire Line
+	3950 4350 3850 4350
+Connection ~ 2950 4350
+Wire Wire Line
+	3050 4350 2950 4350
+Wire Wire Line
+	2950 4350 2400 4350
+Connection ~ 3950 3250
+Wire Wire Line
+	4450 3250 3950 3250
+Wire Wire Line
+	3950 3250 3850 3250
+Connection ~ 2950 3250
+Wire Wire Line
+	3050 3250 2950 3250
+Wire Wire Line
+	2950 3250 2350 3250
+Connection ~ 9050 4750
+Wire Wire Line
+	9050 4900 9050 4750
+Connection ~ 9050 4200
+Wire Wire Line
+	9050 4650 9050 4200
+Wire Wire Line
+	9900 2800 9900 2650
+Wire Wire Line
+	9900 2650 9800 2650
+Wire Wire Line
+	9150 2650 9300 2650
+Wire Wire Line
+	8250 2650 8750 2650
+Wire Wire Line
+	2450 4800 2450 4550
+Wire Wire Line
+	2450 4550 2400 4550
+Connection ~ 3450 4750
+Wire Wire Line
+	5550 4000 5550 3850
+Wire Wire Line
+	5550 3850 5600 3850
+Connection ~ 6850 3700
+Wire Wire Line
+	6850 3700 6750 3700
+Wire Wire Line
+	6850 4000 6850 3850
+Wire Wire Line
+	6850 3850 6850 3700
+Wire Wire Line
+	6850 3700 6850 3400
+Wire Wire Line
+	6850 3400 6850 3250
+Wire Wire Line
+	6850 3250 6750 3250
+Connection ~ 3450 3650
+Wire Wire Line
+	4700 3350 4700 4250
+Wire Wire Line
+	4950 3250 5600 3250
+Connection ~ 2400 3450
+Wire Wire Line
+	2350 3450 2400 3450
+Wire Wire Line
+	2400 3350 2350 3350
+Wire Wire Line
+	2400 3600 2400 3450
+Wire Wire Line
+	2400 3450 2400 3350
+Wire Wire Line
+	3450 3550 3450 3650
+Wire Wire Line
+	3450 3650 3450 3800
+Wire Wire Line
+	2950 3650 3450 3650
+Wire Wire Line
+	3450 3650 3950 3650
+Wire Wire Line
+	6750 3400 6850 3400
+Connection ~ 6850 3400
+Wire Wire Line
+	6850 3850 6750 3850
+Connection ~ 6850 3850
+Wire Wire Line
+	3450 4650 3450 4750
+Wire Wire Line
+	3450 4750 3450 4900
+Wire Wire Line
+	2950 4750 3450 4750
+Wire Wire Line
+	3450 4750 3950 4750
+Wire Wire Line
+	8750 2200 8250 2200
+Wire Wire Line
+	9150 2200 9300 2200
+Wire Wire Line
+	9800 2200 9900 2200
+Wire Wire Line
+	9900 2200 9900 2350
+Wire Wire Line
+	8800 4200 9050 4200
+Wire Wire Line
+	9050 4200 9300 4200
+Wire Wire Line
+	8600 4750 8600 4200
+Wire Wire Line
+	8600 4750 9050 4750
+Wire Wire Line
+	9050 4750 9500 4750
+Wire Wire Line
+	9500 4750 9500 4200
+Text Notes 8300 5200 0    80   ~ 0
+Breadboard headers
+$Comp
+L GND #PWR01
+U 1 1 4F592F09
+P 9050 4900
+F 0 "#PWR01" H 9050 4900 30  0001 C CNN
+F 1 "GND" H 9050 4830 30  0001 C CNN
+	1    9050 4900
+	1    0    0    -1  
+$EndComp
+Text Label 9050 4650 1    60   ~ 0
+5V_OUT
+$Comp
+L CONN_2 P3
+U 1 1 4F592E6B
+P 9400 3850
+F 0 "P3" V 9350 3850 40  0000 C CNN
+F 1 "BB_RHDR" V 9450 3850 40  0000 C CNN
+	1    9400 3850
+	0    1    -1   0   
+$EndComp
+$Comp
+L CONN_2 P2
+U 1 1 00000000
+P 8700 3850
+F 0 "P2" V 8650 3850 40  0000 C CNN
+F 1 "BB_LHDR" V 8750 3850 40  0000 C CNN
+	1    8700 3850
+	0    -1   -1   0   
+$EndComp
+Text Notes 8250 3100 0    80   ~ 0
+Status indicators
+$Comp
+L GND #PWR02
+U 1 1 4F592DFE
+P 9900 2800
+F 0 "#PWR02" H 9900 2800 30  0001 C CNN
+F 1 "GND" H 9900 2730 30  0001 C CNN
+	1    9900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 4F592F0F
+P 9900 2350
+F 0 "#PWR03" H 9900 2350 30  0001 C CNN
+F 1 "GND" H 9900 2280 30  0001 C CNN
+	1    9900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 4F592DEB
+P 9550 2650
+F 0 "R2" V 9630 2650 50  0000 C CNN
+F 1 "1K" V 9550 2650 50  0000 C CNN
+	1    9550 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R1
+U 1 1 4F592F0E
+P 9550 2200
+F 0 "R1" V 9630 2200 50  0000 C CNN
+F 1 "1K" V 9550 2200 50  0000 C CNN
+	1    9550 2200
+	0    -1   -1   0   
+$EndComp
+Text Label 8250 2650 0    60   ~ 0
+3V3_REG
+Text Label 8250 2200 0    60   ~ 0
+5V_OUT
+$Comp
+L LED D2
+U 1 1 4F592D82
+P 8950 2650
+F 0 "D2" H 8950 2750 50  0000 C CNN
+F 1 "3V3_LED" H 8950 2550 50  0000 C CNN
+	1    8950 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 4F592F0D
+P 8950 2200
+F 0 "D1" H 8950 2300 50  0000 C CNN
+F 1 "5V_LED" H 8950 2100 50  0000 C CNN
+	1    8950 2200
+	1    0    0    -1  
+$EndComp
+Text Label 4700 3950 1    60   ~ 0
+5V_OUT
+NoConn ~ 4950 4350
+$Comp
+L CONN_2 P1
+U 1 1 4F592F0C
+P 2050 4450
+F 0 "P1" V 2000 4450 40  0000 C CNN
+F 1 "3V3_OUT" V 2100 4450 40  0000 C CNN
+	1    2050 4450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LD1117 U2
+U 1 1 4F592F0B
+P 3450 4400
+F 0 "U2" H 3600 4200 60  0000 C CNN
+F 1 "LD1117" H 3450 4600 60  0000 C CNN
+	1    3450 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 4F5927C8
+P 3450 4900
+F 0 "#PWR04" H 3450 4900 30  0001 C CNN
+F 1 "GND" H 3450 4830 30  0001 C CNN
+	1    3450 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C2
+U 1 1 4F592F0A
+P 2950 4550
+F 0 "C2" H 3000 4650 50  0000 L CNN
+F 1 "10u" H 3000 4450 50  0000 L CNN
+	1    2950 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 4F592EFE
+P 3950 4550
+F 0 "C4" H 4000 4650 50  0000 L CNN
+F 1 "0.1u" H 4000 4450 50  0000 L CNN
+	1    3950 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 4F592F08
+P 2450 4800
+F 0 "#PWR05" H 2450 4800 30  0001 C CNN
+F 1 "GND" H 2450 4730 30  0001 C CNN
+	1    2450 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 4F592F07
+P 5550 4000
+F 0 "#PWR06" H 5550 4000 30  0001 C CNN
+F 1 "GND" H 5550 3930 30  0001 C CNN
+	1    5550 4000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5600 3700
+NoConn ~ 5600 3550
+NoConn ~ 5600 3400
+$Comp
+L GND #PWR07
+U 1 1 4F592F06
+P 6850 4000
+F 0 "#PWR07" H 6850 4000 30  0001 C CNN
+F 1 "GND" H 6850 3930 30  0001 C CNN
+	1    6850 4000
+	1    0    0    -1  
+$EndComp
+Text Label 4300 4350 2    60   ~ 0
+5V_IN
+$Comp
+L C C3
+U 1 1 4F592F05
+P 3950 3450
+F 0 "C3" H 4000 3550 50  0000 L CNN
+F 1 "0.1u" H 4000 3350 50  0000 L CNN
+	1    3950 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 4F592F04
+P 2950 3450
+F 0 "C1" H 3000 3550 50  0000 L CNN
+F 1 "0.33u" H 3000 3350 50  0000 L CNN
+	1    2950 3450
+	1    0    0    -1  
+$EndComp
+Text Label 2850 4350 2    60   ~ 0
+3V3_REG
+$Comp
+L GND #PWR08
+U 1 1 4F5925CB
+P 3450 3800
+F 0 "#PWR08" H 3450 3800 30  0001 C CNN
+F 1 "GND" H 3450 3730 30  0001 C CNN
+	1    3450 3800
+	1    0    0    -1  
+$EndComp
+Text Label 4000 3250 0    60   ~ 0
+5V_REG
+Text Label 5100 3250 0    60   ~ 0
+5V_USB
+Text Label 2600 3250 0    60   ~ 0
+V_RAW
+$Comp
+L GND #PWR09
+U 1 1 4F592F03
+P 2400 3600
+F 0 "#PWR09" H 2400 3600 30  0001 C CNN
+F 1 "GND" H 2400 3530 30  0001 C CNN
+	1    2400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L JUMPER3 JP1
+U 1 1 4F592495
+P 4700 3250
+F 0 "JP1" H 4750 3150 40  0000 L CNN
+F 1 "SRC_SELECT" H 4700 3350 40  0000 C CNN
+	1    4700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L JUMPER3 JP2
+U 1 1 4F592F02
+P 4700 4350
+F 0 "JP2" H 4750 4250 40  0000 L CNN
+F 1 "3V3_ENABLE" H 4700 4450 40  0000 C CNN
+	1    4700 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L 7805 U1
+U 1 1 4F592F01
+P 3450 3300
+F 0 "U1" H 3600 3104 60  0000 C CNN
+F 1 "7805" H 3450 3500 60  0000 C CNN
+	1    3450 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MINI_USB_B CON1
+U 1 1 4F592F00
+P 6200 3550
+F 0 "CON1" H 6200 4050 60  0000 C CNN
+F 1 "MINI_USB_B" H 6200 3050 60  0000 C CNN
+	1    6200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L JACK-PMS J1
+U 1 1 4F592EFF
+P 1950 3250
+F 0 "J1" H 2074 2989 50  0000 L BNN
+F 1 "JACK-PMS" H 1950 3250 50  0000 L BNN
+F 2 "POWER-IN-JACK-PMS" H 1950 3400 50  0001 C CNN
+	1    1950 3250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

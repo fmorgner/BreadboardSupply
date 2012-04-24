@@ -1,0 +1,122 @@
+Cmp-Mod V01 Genere par PcbNew le Die 24 Apr 2012 17:55:56 CEST
+
+BeginCmp
+TimeStamp = /4F592F04;
+Reference = C1;
+ValeurCmp = 0.33u;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F592F0A;
+Reference = C2;
+ValeurCmp = 10u;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F592F05;
+Reference = C3;
+ValeurCmp = 0.1u;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F592EFE;
+Reference = C4;
+ValeurCmp = 0.1u;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F592F00;
+Reference = CON1;
+ValeurCmp = MINI_USB_B;
+IdModule  = miniUSB_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F592F0D;
+Reference = D1;
+ValeurCmp = 5V_LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F592D82;
+Reference = D2;
+ValeurCmp = 3V3_LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F592EFF;
+Reference = J1;
+ValeurCmp = JACK-PMS;
+IdModule  = PWR-Jack;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F592495;
+Reference = JP1;
+ValeurCmp = SRC_SELECT;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F592F02;
+Reference = JP2;
+ValeurCmp = 3V3_ENABLE;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F592F0C;
+Reference = P1;
+ValeurCmp = 3V3_OUT;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /00000000;
+Reference = P2;
+ValeurCmp = BB_LHDR;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F592E6B;
+Reference = P3;
+ValeurCmp = BB_RHDR;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F592F0E;
+Reference = R1;
+ValeurCmp = 1K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F592DEB;
+Reference = R2;
+ValeurCmp = 1K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F592F01;
+Reference = U1;
+ValeurCmp = 7805;
+IdModule  = LM78XXV;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F592F0B;
+Reference = U2;
+ValeurCmp = LD1117;
+IdModule  = TO220_VERT;
+EndCmp
+
+EndListe

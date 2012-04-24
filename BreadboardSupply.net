@@ -1,0 +1,138 @@
+# EESchema Netlist Version 1.1 created  Don 08 Mär 2012 23:24:58 CET
+(
+ ( /4F592F04 C1 C1 0.33u
+  ( 1 /V_RAW )
+  ( 2 GND )
+ )
+ ( /4F592F0A C1V8 C2 10u
+  ( 1 /3V3_REG )
+  ( 2 GND )
+ )
+ ( /4F592F05 C1 C3 0.1u
+  ( 1 /5V_REG )
+  ( 2 GND )
+ )
+ ( /4F592EFE C1 C4 0.1u
+  ( 1 /5V_IN )
+  ( 2 GND )
+ )
+ ( /4F592F00 miniUSB_B CON1 MINI_USB_B
+  ( 1 /5V_USB )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 GND )
+  ( 6 GND )
+  ( 7 GND )
+  ( 8 GND )
+  ( 9 GND )
+ )
+ ( /4F592F0D LED-0805 D1 5V_LED
+  ( 1 /5V_OUT )
+  ( 2 N-000012 )
+ )
+ ( /4F592D82 LED-0805 D2 3V3_LED
+  ( 1 /3V3_REG )
+  ( 2 N-000008 )
+ )
+ ( /4F592EFF JACK_ALIM J1 JACK-PMS
+  ( 1 /V_RAW )
+  ( 2 GND )
+  ( 3 GND )
+ )
+ ( /4F592495 PIN_ARRAY_3X1 JP1 SRC_SELECT
+  ( 1 /5V_REG )
+  ( 2 /5V_OUT )
+  ( 3 /5V_USB )
+ )
+ ( /4F592F02 PIN_ARRAY_3X1 JP2 3V3_ENABLE
+  ( 1 ? )
+  ( 2 /5V_OUT )
+  ( 3 /5V_IN )
+ )
+ ( /4F592F0C PIN_ARRAY_3X1 P1 3V3_OUT
+  ( 1 /3V3_REG )
+  ( 2 GND )
+ )
+ ( /00000000 PIN_ARRAY_2X1 P2 BB_LHDR
+  ( 1 GND )
+  ( 2 /5V_OUT )
+ )
+ ( /4F592E6B PIN_ARRAY_2X1 P3 BB_RHDR
+  ( 1 GND )
+  ( 2 /5V_OUT )
+ )
+ ( /4F592F0E SM0805 R1 1K
+  ( 1 N-000012 )
+  ( 2 GND )
+ )
+ ( /4F592DEB SM0805 R2 1K
+  ( 1 N-000008 )
+  ( 2 GND )
+ )
+ ( /4F592F01 LM78XXV U1 7805
+  ( GND GND )
+  ( VI /V_RAW )
+  ( VO /5V_REG )
+ )
+ ( /4F592F0B TO220_VERT U2 LD1117
+  ( 1 GND )
+  ( 2 /5V_IN )
+  ( 3 /3V3_REG )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
