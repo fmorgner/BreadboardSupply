@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0  Date: Mit 25 Apr 2012 20:41:42 CEST
+#
+$CMP LD1117
+D Linear Regulator
+K POWER REGUL
+$ENDCMP
+#
+$CMP PWR-JACK
+D DC Power Jack
+K Power Jack
+$ENDCMP
+#
+$CMP USB-MINI-B
+D USB Mini B Connector
+K USB, Mini B
+$ENDCMP
+#
+#End Doc Library

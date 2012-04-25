@@ -1,0 +1,43 @@
+eeschema (2011-nov-30)-stable  >> Creation date: Mit 25 Apr 2012 20:40:45 CEST
+
+#Cmp ( Sortiert nach Referenz )
+| C1         0.33u       
+| C2         10u         
+| C3         0.1u        
+| C4         0.1u        
+| CON1       USB-MINI-B  
+| CON2       PWR-JACK    
+| D1         5V_LED      
+| D2         3V3_LED     
+| JP1        SRC_SELECT  
+| JP2        3V3_ENABLE  
+| P1         3V3_OUT     
+| P2         BB_LHDR     
+| P3         BB_RHDR     
+| R1         1K          
+| R2         1K          
+| U1         7805        
+| U2         LD1117      
+#Ende der Komponente
+
+#Komponenten ( Sortiert nach Wert )
+| 0.1u         C3        
+| 0.1u         C4        
+| 0.33u        C1        
+| 10u          C2        
+| 1K           R1        
+| 1K           R2        
+| 3V3_ENABLE   JP2       
+| 3V3_LED      D2        
+| 3V3_OUT      P1        
+| 5V_LED       D1        
+| 7805         U1        
+| BB_LHDR      P2        
+| BB_RHDR      P3        
+| LD1117       U2        
+| PWR-JACK     CON2      
+| SRC_SELECT   JP1       
+| USB-MINI-B   CON1      
+#Ende der Komponente
+
+#Ende der Liste
